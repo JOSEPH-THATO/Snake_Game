@@ -31,9 +31,10 @@ public class MyAgent extends DevelopmentAgent {
                     String snakeLine = br.readLine();
                     if (i == mySnakeNum) {
                         //hey! That's me :)
+                        mySnakeNum++;
                     }
                     //do stuff with snakes
-                } 
+                }
                 // finished reading, calculate move:
                 System.out.println("log calculating...");
                 int move = new Random().nextInt(4);
